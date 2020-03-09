@@ -30,4 +30,5 @@ docker-compose up --build
 ```
 http://192.168.99.100:3000
 ```
-5. Congratulate Mike because it took him farking forever to get this going.
+5. If something isn't working, go through the tutorial step by step cross referencing to learn what you've done wrong.
+6. Congratulate Mike because it took him farking forever to get this going.
