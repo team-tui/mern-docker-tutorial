@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import axios from 'axios';
 import './App.css';
 
-const apiUrl = `http://192.168.99.100:8080`;
+const apiUrl = `http://${process.env.REACT_APP_HOST}:8080`;
 
 class App extends Component {
   state = {

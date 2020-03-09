@@ -14,13 +14,13 @@ https://dev.to/vguleaev/dockerize-a-react-app-with-node-js-backend-connected-to-
 ### Instructions
 #### To run this project:
 
-1. Change the api -> src -> connection.js file. Substitute the following IP your Docker IP is. (Will be localhost if using proper Docker and not VMDocker)
+1. Change the api -> .env file. Substitute the following IP your Docker IP is. (Will be localhost if using proper Docker and not VMDocker)
 ```
-const connection = "mongodb://192.168.99.100:27017/mongo-test";
+HOST="192.168.99.100"
 ```
-2. Change the ui -> src -> App.js file. Substitute the following IP your Docker IP is. (Will be localhost if using proper Docker and not VMDocker)
+2. Change the ui -> .env file. Substitute the following IP your Docker IP is. (Will be localhost if using proper Docker and not VMDocker)
 ```
-const apiUrl = `http://192.168.99.100:8080`;
+REACT_APP_HOST=192.168.99.100
 ```
 3. Build and Run the container through 
 ```
