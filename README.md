@@ -5,30 +5,13 @@
 * Node JS
 * React JS
 * MongoDB
-* Bootstrap
-* Tutorial
+* Docker
+* Heroku
 
 You can review the full tutorial from the following link:
-https://medium.com/codebase/series-mern-from-scratch-to-a-robust-solution-1af15204e281
+https://dev.to/vguleaev/dockerize-a-react-app-with-node-js-backend-connected-to-mongodb-10ai
 
 ### Instructions
 #### To run this project:
 
-1. Go to the node-backend and run the command
-```
-sudo npm install
-```
-2. Go to the react-frontend and run the command 
-```
-sudo npm install
-```
-3. Go to the root directory
-4. Run 
-```
-sudo docker-compose build
-```
-5. Run
-```
-sudo docker-compose up
-```
-
+1. 
