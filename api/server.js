@@ -1,9 +1,14 @@
+const dotenv = require('dotenv');
 const express = require("express");
 const app = express();
 const connectDb = require("./src/connection");
 const User = require("./src/User.model");
-
+const cors = require('cors');
 const PORT = 8080;
+
+dotenv.config();
+
+app.use(cors());
 
 app.get("/users", async (req, res) => {
   const users = await User.find();
