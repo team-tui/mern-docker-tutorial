@@ -20,7 +20,6 @@ class App extends Component {
     this.setState({
       users: res.data
     });
-    console.log(res.data);
   }
 
   componentDidMount() {
