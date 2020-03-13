@@ -1,12 +1,12 @@
+
 const dotenv = require('dotenv');
+dotenv.config();
 const express = require("express");
 const app = express();
 const connectDb = require("./src/connection");
 const User = require("./src/User.model");
 const cors = require('cors');
 const PORT = 8080;
-
-dotenv.config();
 
 app.use(cors());
 
@@ -24,7 +24,7 @@ app.get("/user-create", async (req, res) => {
   res.send("User created \n");
 });
 
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log(`Listening on ${PORT}`);
 
   connectDb().then(() => {
